@@ -1,9 +1,9 @@
 package edu.mns.dfs.dao;
 
-import edu.mns.dfs.model.Administrateur;
+import edu.mns.dfs.model.Propriete;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface AdministrateurDao extends JpaRepository<Administrateur, Integer> {
+public interface ProprieteDao extends JpaRepository<Propriete,Integer> {
 }
